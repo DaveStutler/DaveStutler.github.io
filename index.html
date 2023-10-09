@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is the tab title-->
+    <title>HuyNguyen</title>
+    <!-- connect to our css-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- this is how we named our fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <!-- 
+        (class) attributes: categorize an element, help to manipulate elements with the specific class name (in the style sheet)
+        Questions: all the tags usages???
+    -->
+    <!-- navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Huy Nguyen</a> <!-- logo 1st-->
+            <div class="navbar__toggle" id="mobile-menu"> <!-- toggle 2nd-->
+                <!-- this is for the right toggle button (3 class: bar)-->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu"> <!-- links 3rd-->
+                <li class="navbar__item">
+                    <a href="#Home" class="navbar__links">#Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Project" class="navbar__links">#Project</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="mailto: huyng38456@gmail.com" class="button">#Email</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main section-->
+    <div class="main" id="#Home">
+        <div class = "main__container">
+            <div class="main__content">
+                <h1> Huy Nguyen</h1>
+                <h2> Software Engineer</h2>
+                <p> Hi! I am an inspired software engineer studying at UC Davis</p>
+                <button class="main__btn">
+                    <a href="/portfolio/begin/image/resume_master.pdf">Resume</a>
+                </button>
+            </div>
+            <div class="main__imag--container">
+                <img src="image/front_page.jpg" alt="pic" id="main__img" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section-->
+    <div class="services" id="#Project">
+        <h1>Some projects that I have been involved with </h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Designer for 2D Game</h2>
+                <p>Create an interactive 2D game in C# and Unity</p>
+                <button> 
+                    <a href="https://github.com/DaveStutler">Get Started</a>
+                </button>
+            </div>
+            <div class="services__card">
+                <h2>Website Developer</h2>
+                <p>Developed a website using HTML, CSS, and Javascript</p>
+                <button> 
+                    <a href="https://github.com/DaveStutler">Get Started</a>
+                </button>
+            </div>
+            <div class="services__card">
+                <h2> Quizz Game online</h2>
+                <p>Currently designing an interactive quiz game</p>
+                <button> 
+                    <a href="https://github.com/DaveStutler">Get Started</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- footer section -->
+    <div class="footer__container">
+        <!-- icons section-->
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="./index.html" id="footer__logo">Huy Nguyen</a>
+                </div>
+                <p class="website__right">
+                    COPYRIGHT 2023. All rights reserved
+                </p>
+                <div class="social__icon">
+                    <a href="https://www.facebook.com/eric.nguyen.31542" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/huynguyen2002/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/DaveStutler" class="social__icon--link" target="_blank">
+                    <i class="fa-brands fa-github"></i>                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a5c74c4b4e.js" crossorigin="anonymous"></script>
+    <!-- this is the app.js comes-->
+    <script src="app.js"></script>
+</body>
+</html>
