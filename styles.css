@@ -455,10 +455,15 @@
     border-radius: 4px;
     background: #f77062;
     position: absolute;
-    top: 440px;
+    top: 460px;
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.services__card a {
+    text-decoration: none;
+    color: white;
 }
 
 .services__card:hover {
